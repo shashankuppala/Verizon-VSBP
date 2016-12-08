@@ -1,0 +1,207 @@
+curl -XGET 'http://localhost:9200/_all/_search?q=+Subscription-Id-Data:"13042667858"&pretty' -d '{
+    "fields": ["Session-Id", "time"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "range": {
+                    "time": {
+                        "from": "1426950476",
+                        "to": "1447690076"
+                    }
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}'
+
+curl -XGET 'http://localhost:9200/_all/_search?Subscription-Id-Data:"13042667858"&pretty' -d '{
+    "fields": ["Session-Id", "time"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "range": {
+                    "time": {
+                        "from": "1426950476",
+                        "to": "1447690076"
+                    }
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}'
+
+curl -XGET 'http://localhost:9200/_all/_search?Subscription-Id-Data:"13042667858"&pretty' -d '{
+    "fields": ["Session-Id", "time"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "range": {
+                    "time": {
+                        "from": "1447308060",
+                        "to": "1447562099"
+                    }
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}'
+
+
+curl -XGET 'http://localhost:9200/_all/_search?q=+Subscription-Id-Data:"13042667858"&pretty' -d '{
+    "fields": ["Session-Id", "time"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "range": {
+                    "time": {
+                        "from": "1447308060",
+                        "to": "1447562099"
+                    }
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}'
+
+
+
+curl -XGET 'http://localhost:9200/_all/_search?Subscription-Id-Data:"13042667858"&pretty' -d '{
+    "fields": ["Session-Id", "time"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "range": {
+                    "time": {
+                        "from": "1447357460",
+                        "to": "1447411460"
+                    }
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}'
+
+
+curl -XGET 'http://localhost:9200/_all/_search?q=+Subscription-Id-Data:"13042667858"&pretty' -d '{
+    "fields": ["Session-Id", "time"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "range": {
+                    "time": {
+                        "from": "1447357460",
+                        "to": "1447411460"
+                    }
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}'
+
+<         "time" : [ "'1447409315.165037'" ],
+<         "Session-Id" : [ "'rf-vzims.com;31sid;6166'" ]
+---
+>         "time" : [ "'1447525655.611903'" ],
+>         "Session-Id" : [ "'rf-vzims.com;677;7033818'" ]
+
+
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Session-Id", "time"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match": {"Subscription-Id-Data": "13042667858"}
+            },
+            "filter": {
+                "range": {
+                    "time": {
+                        "from": "1447357460",
+                        "to": "1447411460"
+                    }
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}'
+

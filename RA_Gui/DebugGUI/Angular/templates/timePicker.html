@@ -1,0 +1,66 @@
+<!-- This is from the template  -->
+
+
+           <div class="row">
+            <div class="col-md-2">
+                <label>From Date:</label>
+                <p class="input-group">
+                    <input type="text" class="form-control"  datepicker-popup="{{format}}" ng-model="dt" ng-change="FnFromDateChange()" is-open="status.opened" min-date="minDate" max-date="'2020-06-22'" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" />
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-default" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+                    </span>
+                </p> 
+            </div>        
+            <div class="col-md-2">
+                <label>Time:</label>
+               <div class="input-group">
+    <input type="text" class="form-control" placeholder="Hours:00" id="fromTimeHours" ng-model="fromTimeHours"  ng-blur="FnHoursValidate()" />
+    <span class="input-group-addon">:</span>
+    <input type="text" class="form-control" placeholder="Minutes:00" id="fromTimeMinutes" ng-model="fromTimeMinutes"  ng-blur="FnMinutesValidate()" />
+</div>
+               
+            </div> 
+              
+            <div class="col-md-1">
+                <label>am or pm:</label>
+                <select class="form-control" ng-model="fromampm" ng-change="FrampmChange()">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label>To Date:</label>
+                <p class="input-group">
+                    <input type="text" class="form-control" datepicker-popup="{{format}}" ng-model="dtto" ng-change="FnFromDateChange()" is-open="status.openedto" min-date="minDate" max-date="'2020-06-22'" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" />
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-default" ng-click="openToTime($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+                    </span>
+                </p> 
+            </div>  
+           
+           
+ <div class="col-md-2">
+                <label>Time:</label>
+               <div class="input-group">
+    <input type="text" class="form-control" placeholder="Hours:00" id="toTimeHours" ng-model="toTimeHours" ng-blur="FnHoursValidate()" />
+    <span class="input-group-addon">:</span>
+    <input type="text" class="form-control" placeholder="Minutes:00" id="toTimeMinutes" ng-model="toTimeMinutes"  ng-blur="FnMinutesValidate()" />
+</div>
+               
+            </div>            
+           
+            <div class="col-md-1">
+                <label>am or pm:</label>
+                <select class="form-control" ng-model="toampm" ng-change="FrampmChange()" >
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+            <div class="col-md-1">
+                <label></label>
+                <input type="submit" class="btn btn-primary form-control" ng-click="FnGetRecordsByTime()" value="submit" />          
+            </div>
+            
+        </div>
+        
+            

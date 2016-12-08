@@ -1,0 +1,1814 @@
+{
+  "took" : 12,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 145,
+    "successful" : 135,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 55459,
+    "max_score" : null,
+    "hits" : [ {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnb",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.659868" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJna",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.659868" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrq",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.659868" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrr",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.659868" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrp",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.396084" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnZ",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.396084" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnX",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.396077" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrn",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.396077" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnY",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.396077" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSro",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.396077" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnW",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.395862" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrm",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.395862" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrl",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.145224" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnV",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.145224" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrk",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.134358" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnU",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.134358" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnT",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.123370" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrj",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.123370" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnS",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.102424" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSri",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.102424" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnR",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.091568" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrh",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.091568" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrg",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.080606" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnQ",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.080606" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrf",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.079749" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnP",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.079749" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnO",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.068895" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSre",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.068895" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnN",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.057908" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrd",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.057908" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnM",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.047056" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrc",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.047056" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrb",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.036079" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnL",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.036079" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSra",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.025189" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnK",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.025189" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrZ",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.024345" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnJ",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.024345" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO_BMCPIJdWbJnI",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.003346" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrY",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.003346" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJnH",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.002506" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrX",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817615.002506" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrW",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.991652" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJnG",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.991652" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJnF",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.980671" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrV",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.980671" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJnE",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.969862" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrU",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.969862" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJnD",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.958833" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrT",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.958833" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJnC",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.947984" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrS",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.947984" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrR",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.936967" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJnB",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.936967" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJnA",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.926117" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrQ",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.926117" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJm_",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.915128" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrP",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.915128" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJm-",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.904282" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrO",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.904282" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrN",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.903444" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJm9",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.903444" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrM",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.892594" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJm8",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.892594" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJm7",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.881222" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrL",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.881222" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrK",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.860280" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJm6",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.860280" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrJ",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.859384" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJm5",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.859384" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrI",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.838421" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJm4",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.838421" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrH",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.837606" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJm3",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.837606" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJm2",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.826407" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrG",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.826407" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrF",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.815407" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJm1",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.815407" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrE",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.804590" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJm0",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.804590" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrD",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.803726" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmz",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.803726" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrC",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.782756" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmy",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.782756" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmx",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.781892" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrB",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.781892" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSrA",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.771026" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmw",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.771026" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSq_",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.760062" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmv",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.760062" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSq-",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.749186" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmu",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.749186" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmt",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.738207" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSq9",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.738207" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJms",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.727350" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSq8",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.727350" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSq7",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.716374" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmr",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.716374" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmq",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.705488" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSq6",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.705488" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmp",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.704682" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSq5",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.704682" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmo",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.693859" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSq4",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.693859" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmn",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.682819" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSq3",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.682819" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSq2",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.672008" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmm",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.672008" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJml",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.660972" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSq1",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.660972" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmk",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.640015" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSq0",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.640015" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmj",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.639109" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqz",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.639109" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmi",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.628270" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqy",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.628270" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqx",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.617220" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmh",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.617220" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmg",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.606418" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqw",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.606418" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmf",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.595458" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqv",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.595458" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJme",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.584600" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqu",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.584600" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmd",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.583730" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqt",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.583730" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqs",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.562795" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmc",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.562795" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmb",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.561951" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqr",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.561951" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJma",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.551103" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqq",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.551103" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmZ",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.540082" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqp",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.540082" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqo",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.529218" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmY",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.529218" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqn",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.518206" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmX",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.518206" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmW",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.507376" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqm",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.507376" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmV",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.496392" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSql",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.496392" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmU",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.495520" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqk",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.495520" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqj",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.484645" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmT",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.484645" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqi",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.463697" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmS",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.463697" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmR",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.462887" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqh",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.462887" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmQ",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.441923" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqg",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.441923" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmP",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.441040" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqf",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.441040" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqe",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.430232" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmO",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.430232" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqd",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.419232" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmN",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.419232" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmM",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.408383" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqc",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.408383" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmL",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.397338" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqb",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.397338" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmK",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.386498" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqa",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.386498" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqZ",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.375502" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmJ",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.375502" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmI",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.364660" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqY",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.364660" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmH",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.363782" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqX",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.363782" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmG",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.352957" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqW",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.352957" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmF",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.341945" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqV",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.341945" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqU",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.331104" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmE",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.331104" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmD",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.320104" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqT",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.320104" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmC",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.299144" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqS",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.299144" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmB",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.298305" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqR",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.298305" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJmA",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.287480" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqQ",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.287480" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqP",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.276487" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJl_",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.276487" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJl-",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.265624" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqO",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.265624" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqN",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.264789" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJl9",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.264789" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqM",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.243789" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJl8",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.243789" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqL",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.242971" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJl7",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.242971" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqK",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.222009" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJl6",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.222009" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJl5",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.221142" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqJ",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.221142" ]
+    }, {
+      "_index" : "logstash-2015.10.12.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVBcdd7aBMCPIJdWbSqI",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.210296" ]
+    }, {
+      "_index" : "logstash-2015.10.05.14",
+      "_type" : "ccf'1'",
+      "_id" : "AVA4bWO-BMCPIJdWbJl4",
+      "_score" : null,
+      "fields" : {
+        "Subscription-Id-Data" : [ "'13042667858'" ]
+      },
+      "sort" : [ "1443817614.210296" ]
+    } ]
+  }
+}

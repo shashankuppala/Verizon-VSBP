@@ -1,0 +1,39 @@
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Subscription-Id-Data"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Subscription-Id-Data": ".*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "@timestamp": {
+                                    "from": "2015-09-21T09:00",
+                                    "to": "2015-10-20T21:00"
+                                }
+                            }
+                        }
+                    ]
+                }            
+            }
+        }
+    },    
+    "size": 1000,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }         
+        }
+    ]    
+}
+'

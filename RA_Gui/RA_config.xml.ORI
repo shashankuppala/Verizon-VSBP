@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone='yes'?>
+<configuration>
+    <host>localhost</host>
+    <port>9200</port>
+    <!-- set default query size limit -->
+    <size>200</size>
+    <!--set default time range filter:
+            "1h": (1*hours),
+            "6h": (6*hours),
+            "12h": (12*hours),
+            "1d": (1*day),
+            "2d": (2*days),
+            "7d": (7*days),
+            "30d": (30*days)
+    -->
+    <from>30d</from>
+    <sessionDetail>
+        <!--<fields>_index,frame,srcport,dstport,@timestamp,Session-Id,Accounting-Record-Type,Accounting-Record-Number</fields>-->
+        <fields>time,_type,Accounting-Record-Type,srcport,dstport,Accounting-Record-Number,is_request,src,dst,type</fields>
+    </sessionDetail>
+    <type3G>pdsn|aaa</type3G>
+    <unique3G>Accounting-Record-Number,src,dst,srcport,dstport</unique3G>
+    <ingress>logstash*/pgw'0',pgw'1',vseprf'0',vseprf'1',pdsn1,pdsn2,pdsn4,pdsn5</ingress>
+    <egress>logstash*/ccf'0',ccf'1',aaa1,aaa2,aaa4,aaa5</egress>
+    <valueMapping>
+        <!--<_index><key></key><value></value></_index>-->
+        <_type>
+            <key>pgw0</key>
+            <value>PGW-ACA</value>
+        </_type>
+        <_type>
+            <key>pgw1</key>
+            <value>PGW-ACR</value>
+        </_type>
+        <_type>
+            <key>vseprf0</key>
+            <value>VSEPRF-ACA</value>
+        </_type>
+        <_type>
+            <key>vseprf1</key>
+            <value>VSEPRF-ACR</value>
+        </_type>
+        <_type>
+            <key>ccf0</key>
+            <value>CCF-ACA</value>
+        </_type>
+        <_type>
+            <key>ccf1</key>
+            <value>CCF-ACR</value>
+        </_type>
+        <_type>
+            <key>pdsn4</key>
+            <value>PDSN-ACR</value>
+        </_type>
+        <_type>
+            <key>pdsn1</key>
+            <value>PDSN-ACR</value>
+        </_type>        
+        <_type>
+            <key>pdsn5</key>
+            <value>PDSN-ACA</value>
+        </_type>
+        <_type>
+            <key>pdsn2</key>
+            <value>PDSN-ACA</value>
+        </_type>        
+        <_type>
+            <key>aaa4</key>
+            <value>AAA-ACR</value>
+        </_type>
+        <_type>
+            <key>aaa1</key>
+            <value>AAA-ACR</value>
+        </_type>        
+        <_type>
+            <key>aaa5</key>
+            <value>AAA-ACA</value>
+        </_type>
+        <_type>
+            <key>aaa2</key>
+            <value>AAA-ACA</value>
+        </_type>        
+        <!-- <Accounting-Record-Type><key></key><value></value></Accounting-Record-Type> -->
+        <Accounting-Record-Type>
+            <key>2</key>
+            <value>ACC-START</value>
+        </Accounting-Record-Type>
+        <Accounting-Record-Type>
+            <key>3</key>
+            <value>ACC-INTERIM</value>
+        </Accounting-Record-Type>
+        <Accounting-Record-Type>
+            <key>4</key>
+            <value>ACC-STOP</value>
+        </Accounting-Record-Type>
+        <!-- <Accounting-Record-Number><key></key><value></value></Accounting-Record-Number> -->
+    </valueMapping>
+    <tmpDir>/opt/common/RA/tmp/</tmpDir>
+    <diffFile1>diff1.txt</diffFile1>
+    <diffFile2>diff2.txt</diffFile2>
+    <sessProcEnd>diff.txt</sessProcEnd>
+</configuration>
+
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-controller="RootController" data-ng-app="main">
+<head>
+    <title>VSBP Tool</title>
+    <script type="text/javascript" src="lib/jquery-1.10.2.min.js"></script><!---jquery.min.js----->
+    <link rel="stylesheet" href="lib/jquery-ui.min.css"/><!--jquery-ui.min.css------>
+    <script src="/RA_Gui/DebugGUI/Angular/lib/jquery-ui.min.js"></script>
+    <script src="/RA_Gui/DebugGUI/Angular/lib/bootstrap.min.js"></script>
+    <script src="/RA_Gui/DebugGUI/Angular/lib/angular.min.js"></script> 
+    <script src="/RA_Gui/DebugGUI/Angular/lib/angular-route.js"></script>  
+    <script src="/RA_Gui/DebugGUI/Angular/lib/angular-animate.min.js"></script>
+    <!--<script src="/DebugGUI/Angular/lib/angular-touch.min.js"></script>-->
+    <script src="/RA_Gui/DebugGUI/Angular/lib/angular-resource.min.js"></script>
+    <script type="text/javascript" src="/RA_Gui/DebugGUI/Angular/lib/ui-bootstrap-tpls-0.13.3.min.js"></script>
+    <script src="/RA_Gui/DebugGUI/Angular/lib/datetimepicker_working.js"></script>
+     <script src="/RA_Gui/DebugGUI/Angular/lib/jquery.cookie.js"></script>   
+    
+   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="/RA_Gui/DebugGUI/Angular/css/styles.css" />
+    
+     <script src="/RA_Gui/DebugGUI/Angular/lib/bootstrap.min.js"></script>
+     
+     <link rel="stylesheet" type="text/css" href="/RA_Gui/DebugGUI/Angular/css/bootstrap.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="/RA_Gui/DebugGUI/Angular/css/datetimepicker_working.css" />
+</head>
+<body>
+        <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse navbar-menubuilder">
+                <img src="img/verizon_logo.png" style="padding-top:23px; width:125px;	"class="img">
+                <ul class="nav navbar-nav navbar-left">
+                    <!--<li><a href="#DashBoard"><span class="glyphicon glyphicon-stats">DashBoard</span></a></li>-->
+                    <li><a href="#Mdnanalysis"><span class="glyphicon glyphicon-earphone">MDNAnalysis</span></a></li>
+                    <!--<li><a href="#Packetanalysis"><span class="glyphicon glyphicon-file">PacketAnalysis</span></a></li>-->
+                   <!-- <li><a href="#loganalysis">Log Analysis</a></li>-->
+                    <!--<li><a href="#Configuration">Configuration</a></li>-->
+                    <li><a href="" onclick="FnLogout()"><span class="glyphicon glyphicon-log-out">Logout</span></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right"><li><h3>VSBP Tool Version 1.10</h3></li></ul>
+                
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">    
+    
+    
+<div id="loader" style="display:none;" class="loading">Loading&#8230;Please wait........</div>    
+    
+        
+        <div ng-view></div>
+    </div>
+</body>
+</html>
+<!--links for controllers,services-->
+<script src="routing/App.js"></script>
+<script src="controllers/DashboardController.js"></script>
+<script src="controllers/AnalysisController.js"></script>
+<script src="controllers/configController.js"></script>
+<script src="controllers/PacketAnalysisController.js"></script>
+<script src="controllers/clockController.js"></script>
+<script src="directives/timePicker.js"></script>
+<script src="services/RequestService.js"></script>
+
+<script>
+function FnLogout(){
+if (confirm("Do you want to redirect to the Home page");) {
+	window.location.href="https://www.google.com";
+}
+  else {
+          return false; 	
+}
+}
+</script>
+
+

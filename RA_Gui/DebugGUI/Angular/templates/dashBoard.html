@@ -1,0 +1,324 @@
+    <!--will genarate the graphs using kibana or d3 at this place-->
+    <!--should be in  separate CSS folder-->
+    <style type="text/css">
+        .bs-example{
+            margin: 20px;
+            width: 60%;
+        }
+        
+        .navbar-nav{
+            padding-left: 100px;
+            padding-top: 22px;
+        }
+    </style>
+    
+    <time-picker> </time-picker>
+    <div class="row">
+       <div class="col-sm-4">
+         <p><label>Last updated:</b>{{date|date:"MM/dd/yyyy hh:mm:ss a"}}</b></label></p>
+      </div>
+    </div>
+    
+     <div class="row">
+       <div class="col-sm-4">
+         <input type="button" value="Get Live Stats" id="btnLiveStats" ng-click="FnGetLiveStats()" class="btn btn-primary" style="display:none" />
+      </div>
+    </div>
+    
+<div class="row top-buffer">    
+    
+    <div class="col-sm-12">
+    <div class="col-sm-5">
+        <div class="panel panel-default">
+            <div class="panel-heading">INGRESS REPORTS</div>
+            <div class="panel-body" >
+                <table class="table table-bordered table-fixed">
+            <thead>
+                <tr>
+                    <!--will use ng-repeat to featch data dynamically-->
+                    
+                    <th>CER</th>
+                    <th>CEA</th>
+                    <th>DWR</th>
+                    <th>DWA</th>
+                    <th>ACR</th>
+                    <th>ACA</th>
+                    <th>CCR</th>
+                    <th>CCA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!--Ingress data-->                   
+                   <td>{{datax[1]}}</td>
+                   <td>{{datax[2]}}</td>
+                   <td>{{datax[3]}}</td>
+                   <td>{{datax[4]}}</td>
+                   <td>{{datax[5]}}</td>
+                   <td>{{datax[6]}}</td>
+                   <td>{{datax[7]}}</td>
+                   <td>{{datax[8]}}</td>
+                </tr>   
+            </tbody>
+        </table>
+        <table class="table table-bordered table-fixed">
+            <thead>
+                <tr>
+                    <!--will use ng-repeat to featch data dynamically-->
+                    
+                    <th>CER</th>
+                    <th>CEA</th>
+                    <th>DWR</th>
+                    <th>DWA</th>
+                    <th>ACR</th>
+                    <th>ACA</th>
+                    <th>CCR</th>
+                    <th>CCA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!--Ingress data-->                   
+                   <td>{{datax[1]}}</td>
+                   <td>{{datax[2]}}</td>
+                   <td>{{datax[3]}}</td>
+                   <td>{{datax[4]}}</td>
+                   <td>{{datax[5]}}</td>
+                   <td>{{datax[6]}}</td>
+                   <td>{{datax[7]}}</td>
+                   <td>{{datax[8]}}</td>
+                </tr>   
+            </tbody>
+        </table>
+        <table class="table table-bordered table-fixed">
+            <thead>
+                <tr>
+                    <!--will use ng-repeat to featch data dynamically-->
+                    
+                    <th>CER</th>
+                    <th>CEA</th>
+                    <th>DWR</th>
+                    <th>DWA</th>
+                    <th>ACR</th>
+                    <th>ACA</th>
+                    <th>CCR</th>
+                    <th>CCA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!--Ingress data-->                   
+                   <td>{{datax[1]}}</td>
+                   <td>{{datax[2]}}</td>
+                   <td>{{datax[3]}}</td>
+                   <td>{{datax[4]}}</td>
+                   <td>{{datax[5]}}</td>
+                   <td>{{datax[6]}}</td>
+                   <td>{{datax[7]}}</td>
+                   <td>{{datax[8]}}</td>
+                </tr>   
+            </tbody>
+        </table>
+        </div>
+        <div class="panel-footer">
+            Total Request:<input type="text" name="total" value="{{datax[9]}}" size="10"disabled />
+            Total Answer:<input type="text" name="total" value="{{datax[10]}}" size="10"disabled />
+            Total In-Bytes:<input type="text" name="total" value="0" size="5"disabled />
+            Total Out-Bytes:<input type="text" name="total" value="0" size="5"disabled />
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">INGRESS ACR & ACA</div>
+            <div class="panel-body" >
+                <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <!--will use ng-repeat to featch data dynamically-->
+                    <th>ACR start</th>
+                    <th>ACR interim</th>
+                    <th>ACR stop</th>
+                    <th>ACA start</th>
+                    <th>ACA interim</th>
+                    <th>ACA stop</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!--Engress data-->                   
+                   <td> {{dataA[1]}}</td>
+                   <td> {{dataA[2]}}</td>
+                   <td> {{dataA[3]}}</td>
+                   <td> {{dataA[4]}}</td>
+                   <td> {{dataA[5]}}</td>
+                   <td> {{dataA[6]}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <!--will use ng-repeat to featch data dynamically-->
+                    <th>ACR start</th>
+                    <th>ACR interim</th>
+                    <th>ACR stop</th>
+                    <th>ACA start</th>
+                    <th>ACA interim</th>
+                    <th>ACA stop</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!--Engress data-->                   
+                   <td> {{dataA[1]}}</td>
+                   <td> {{dataA[2]}}</td>
+                   <td> {{dataA[3]}}</td>
+                   <td> {{dataA[4]}}</td>
+                   <td> {{dataA[5]}}</td>
+                   <td> {{dataA[6]}}</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="panel-footer">
+         Total ACR :<input type="text" name="totalEacr" size="10" value="{{dataA[1]+dataA[2]+dataA[3]}}" disabled />
+         Total ACA :<input type="text" name="totalEacr" size="10" value="{{dataA[4]+dataA[5]+dataA[6]}}" disabled />
+            </div>
+        </div>
+    </div>
+</div>
+    <!--<div class="col-sm-3">
+        <img src="img/Graph.png" height="100%" width="100%">
+    </div>-->
+    <div class="col-sm-12">
+    <div class="col-sm-5">
+        <div class="panel panel-default">
+            <div class="panel-heading">EGRESS REPORTS</div>
+            <div class="panel-body" >
+                <table class="table table-bordered table-fixed">
+            <thead>
+                <tr>
+                    <!--will use ng-repeat to featch data dynamically-->
+                    
+                    <th>CER</th>
+                    <th>CEA</th>
+                    <th>DWR</th>
+                    <th>DWA</th>
+                    <th>ACR</th>
+                    <th>ACA</th>
+                    <th>CCR</th>
+                    <th>CCA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!--Engress data-->                   
+                   <td> {{datay[1]}}</td>
+                   <td> {{datay[2]}}</td>
+                   <td> {{datay[3]}}</td>
+                   <td> {{datay[4]}}</td>
+                   <td> {{datay[5]}}</td>
+                   <td> {{datay[6]}}</td>
+                   <td> {{datay[7]}}</td>
+                   <td> {{datay[8]}}</td>
+                </tr>
+             </tbody>
+
+        </table>
+        <table class="table table-bordered table-fixed">
+            <thead>
+                <tr>
+                    <!--will use ng-repeat to featch data dynamically-->
+                    
+                    <th>CER</th>
+                    <th>CEA</th>
+                    <th>DWR</th>
+                    <th>DWA</th>
+                    <th>ACR</th>
+                    <th>ACA</th>
+                    <th>CCR</th>
+                    <th>CCA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!--Engress data-->                   
+                   <td> {{datay[1]}}</td>
+                   <td> {{datay[2]}}</td>
+                   <td> {{datay[3]}}</td>
+                   <td> {{datay[4]}}</td>
+                   <td> {{datay[5]}}</td>
+                   <td> {{datay[6]}}</td>
+                   <td> {{datay[7]}}</td>
+                   <td> {{datay[8]}}</td>
+                </tr>
+             </tbody>
+
+        </table>
+        </div>
+        <div class="panel-footer">
+            Total Request:<input type="text" name="total" value="{{datay[9]}}" size="10"disabled />
+            Total Answer:<input type="text" name="total" value="{{datay[10]}}" size="10"disabled />
+            Total In-Bytes:<input type="text" name="total" value="0" size="5"disabled />
+             Total Out-Bytes:<input type="text" name="total" value="0" size="5"disabled />
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">EGRESS ACR & ACA</div>
+            <div class="panel-body" >
+                <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <!--will use ng-repeat to featch data dynamically-->
+                    <th>ACR start</th>
+                    <th>ACR interim</th>
+                    <th>ACR stop</th>
+                    <th>ACA start</th>
+                    <th>ACA interim</th>
+                    <th>ACA stop</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr><!--Engress data-->                   
+                   <td>{{dataB[1]}}</td>
+                   <td>{{dataB[2]}}</td>
+                   <td>{{dataB[3]}}</td>
+                   <td>{{dataB[4]}}</td>
+                   <td>{{dataB[5]}}</td>
+                   <td>{{dataB[6]}}</td>
+                 </tr>
+            </tbody>
+           
+        </table>
+        <table class="table table-bordered">
+        <thead>
+                <tr>
+                    <!--will use ng-repeat to featch data dynamically-->
+                    <th>ACR start</th>
+                    <th>ACR interim</th>
+                    <th>ACR stop</th>
+                    <th>ACA start</th>
+                    <th>ACA interim</th>
+                    <th>ACA stop</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr><!--Engress data-->                   
+                   <td>{{dataB[1]}}</td>
+                   <td>{{dataB[2]}}</td>
+                   <td>{{dataB[3]}}</td>
+                   <td>{{dataB[4]}}</td>
+                   <td>{{dataB[5]}}</td>
+                   <td>{{dataB[6]}}</td>
+                 </tr>
+            </tbody>
+           
+        </table>
+        </div>
+        <div class="panel-footer">
+        Total ACR :<input type="text" name="totalEacr" size="10" value="{{(dataB[1])+(dataB[2])+(dataB[3])}}" disabled />
+        Total ACA :<input type="text" name="totalEacr" size="10" value="{{(dataB[4])+(dataB[5])+(dataB[6])}}" disabled />
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>

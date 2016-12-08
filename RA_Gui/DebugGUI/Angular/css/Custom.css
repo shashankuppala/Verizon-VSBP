@@ -1,0 +1,80 @@
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+.panel-default {
+    border-color: #ddd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 20px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+
+.tabs-left > .nav-tabs {
+    float: left;
+    margin-right: 0px;
+     border-right: 1px solid #ddd; 
+}
+
+.tabs-below > .nav-tabs, .tabs-right > .nav-tabs, .tabs-left > .nav-tabs {
+    border-bottom: 0;
+}
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+
+.nav {
+    margin-left: 0;
+    margin-bottom: 20px;
+    list-style: none;
+}
+ul, ol {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+
+.tab-content {
+    overflow: auto;
+}
+
+tab-content > .active, .pill-content > .active {
+    display: block;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+.tab-content > .tab-pane, .pill-content > .pill-pane {
+    display: none;
+}
+
+.tabs-left > .nav-tabs > li, .tabs-right > .nav-tabs > li {
+    /* float: none; */
+}
+.nav-tabs > li {
+    margin-bottom: -1px;
+}
+.nav-tabs > li, .nav-pills > li {
+    float: left;
+}
+li {
+    line-height: 20px;
+}
+
+

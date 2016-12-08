@@ -1,0 +1,571 @@
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Subscription-Id-Data"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Subscription-Id-Data": ".*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "@timestamp": {
+                                    "gt": "now-30d"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}
+'
+
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Subscription-Id-Data"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Subscription-Id-Data": ".*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "@timestamp": {
+                                    "from": "now-7d",
+                                    "to": "now"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}
+'
+
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Subscription-Id-Data"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Subscription-Id-Data": ".*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "@timestamp": {
+                                    "from": "2015-09-18T22:36",
+                                    "to": "2015-09-18T22:50"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}
+'
+
+
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Subscription-Id-Data"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Subscription-Id-Data": ".*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "@timestamp": {
+                                    "from": "2015-09-18T22:36",
+                                    "to": "2015-09-18T22:40"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}
+'
+
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Subscription-Id-Data"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Subscription-Id-Data": ".*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "@timestamp": {
+                                    "from": "2015-10-05T14:34",
+                                    "to": "2015-10-05T14:36"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}
+'
+
+
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Subscription-Id-Data"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Subscription-Id-Data": ".*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "@timestamp": {
+                                    "from": "2015-10-05T14:34",
+                                    "to": "now"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}
+'
+
+
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Subscription-Id-Data"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Subscription-Id-Data": ".*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "@timestamp": {
+                                    "from": "2015-10-02T20:21",
+                                    "to": "now"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}
+'
+
+
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Subscription-Id-Data", "@timestamp"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Subscription-Id-Data": ".*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "@timestamp": {
+                                    "from": "2015-10-02T20:21",
+                                    "to": "now"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}
+'
+
+
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Subscription-Id-Data", "@timestamp"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Subscription-Id-Data": ".*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "@timestamp": {
+                                    "from": "2015-10-11T14:20",
+                                    "to": "now"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}
+'
+
+
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Subscription-Id-Data", "@timestamp"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Subscription-Id-Data": ".*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "@timestamp": {
+                                    "from": "now-30d",
+                                    "to": "now"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}
+'
+
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Subscription-Id-Data", "@timestamp"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+        "aggs": {
+              "unique_vals": {
+                 "terms": {
+                    "field": "Subscription-Id-Data"
+                 }
+              }
+           },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Subscription-Id-Data": ".*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "@timestamp": {
+                                    "from": "now-30d",
+                                    "to": "now"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}
+'
+
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Subscription-Id-Data", "@timestamp", "time"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Subscription-Id-Data": ".*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "time": {
+                                    "from": "1432000000",
+                                    "to": "1438000000"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}
+'
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Session-Id"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Session-Id": ".*31sid.*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "time": {
+                                    "from": "1443550141",
+                                    "to": "1446142141"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}
+'
+
+curl -XGET 'http://localhost:9200/_all/_search?pretty' -d '{
+    "fields": ["Session-Id"],
+    "query": {
+        "filtered": {
+            "query": {
+                "match_all": {}
+            },
+            "filter": {
+                "bool" : {
+                    "must" : [
+                        {
+                            "regexp" : {
+                                "Session-Id": "*31sid;1000.*"
+                            }
+                        },
+                        {
+                            "range": {
+                                "time": {
+                                    "from": "1443550141",
+                                    "to": "1446142141"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 200,
+    "sort": [
+        {
+          "time": {
+            "order": "desc",
+            "ignore_unmapped": true
+          }
+        }
+    ]
+}
+'
+

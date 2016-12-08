@@ -1,0 +1,229 @@
+		
+		<div ng-controller="AnalysisController">
+						<time-picker> </time-picker>
+						<div class="row">
+ </div>
+<!--<datetimepicker placeholder="mm/dd/yyyy" min-date="minDate" show-weeks="showWeeks" hour-step="hourStep" minute-step="minuteStep" ng-model="fromdate" show-meridian="showMeridian" date-format="yyyy-mm-ddsssss" date-options="dateOptions"  readonly-time="false"></datetimepicker>-->						
+						
+						<div  ng-controller='clockController'><!--For clock-->
+							<p style="color:#F00">{{ clock | date:'medium'}}</p>
+						</div>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="panel panel-right panel-default">
+	
+									<div class="panel-heading">
+										<div class="row">
+											
+											
+											<div class="col-sm-6">
+													<!--Unable to keep the g lyphs icon for the search-->
+													<input type="text"class="form-control" placeholder="Search MDN or IMSI" ng-model="MDN" ng-model-onblur ng-change="GetNewSessions()"  />
+													</div>
+													<div class="col-sm-6">
+													<p>Check if IMSI:  <input type="checkbox" id="myCheckbox" /> </p>													
+													</div>
+											</div>
+									</div>
+	                        <div class="panel-body"style="height:150px;overflow-y:scroll;">
+	   <ul>
+			<li ng-repeat=" opt in SessionsData">
+				<a href="" ng-click='ShowSessions(opt.id)'>{{ opt.id }}</a>
+	      </li>
+	
+		</ul>
+	</div>
+	<div class='panel-footer' style="color:#23527C;">Total Matches:{{SessionsData.length}}</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="panel panel-mid panel-default">
+	
+									<div class="panel-heading">
+									<b>SESSIONS</b>
+									  <!--<div class="inner-addon right-addon">
+										
+										<div class="input-group stylish-input-group">									
+										<input type="text" class="form-control" placeholder="Filter for session" ng-model="search.id" ng-keypress="FnFsessionKeyPress($event)" />
+										<span class="input-group-addon">
+                        <a href=""  ng-click="SearchSessions()">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </a>  
+                    </span>
+										</div>
+										</div>-->
+									</div>
+									<div class="panel-body"style="height:150px;overflow-y:scroll;">
+										<ul>
+											<li ng-repeat="idopt in SessionId | filter:search">
+												<a href="" ng-click="FnGetSessionReport(idopt.id)">{{idopt.id}}</a>
+											</li>
+										</ul>
+									</div>
+									<div class='panel-footer' style="color:#23527C;">Total Matches:{{SessionId.length}}</div> 
+							</div>
+							</div>
+						<div class="col-md-5">
+							<div class="panel panel-left panel-default">
+								<div class="panel-heading">
+										<!--Unable to keep the glyphs icon for the search-->
+										<b>REPORT</b>
+									</div>
+									<div class="panel-body">
+									<table class="table table-bordered table-hover" >
+								<!--will use ng-repeat to featch data dynamically-->
+											<thead>
+												 <tr>
+												      <th>Type:</th>
+														<th>InputBytes</th>
+														<th>OutputBytes</th>
+														<th>SDC</th>
+													   <th>ACC Records</th>                                                                            
+													</tr>
+											</thead>
+											<tbody id="resultfinal">
+												<tr>
+												<td>{{name}}</td>
+												<td>{{inputpgw}}</td>
+												<td>{{outputpgw}}</td>
+												<td>{{sdc1}}</td>
+												<td>{{recordpgw}}</td>
+												</tr>
+												<tr>
+												<td>{{name1}}</td>
+												<td>{{inputccf}}</td>
+												<td>{{outputccf}}</td>
+												<td>{{sdc2}}</td>
+												<td>{{recordccf}}</td>
+												</tr>
+											</tbody>
+										</table>
+										</div>
+	                            
+										<div class="panel-footer">
+										<label><b>{{recordstatus}}</b></label>
+										</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="panel panel-default">
+							<div class="panel-heading text-center">
+									<div class="panel-heading">
+										<button type="button" ng-click="opendailog()" class="btn btn-primary">{{buttontext}}</button></div>
+							</div>
+							<div class="panel-body">
+							<h5>SESSION <b>'{{CurrentSessionId}}'</b> -- ACCOUNTING RECORDS SUMMARY:</h5>
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="panel panel-default">
+											<div class="panel-body" style="height:350px;overflow: scroll;">
+											<h5><b>TOTAL INGRESS REPORTS:{{IngressSessionDetails.length}}</b></h5>
+											<table class="table table-bordered table-hover">
+											<thead>
+													<tr style="background-color:#DFF0D8;">   
+													<th><input type="checkbox" id="selectAllIn" ng-click="FnIngressChecked('All')" /></th>                                    
+														<th>Time</th>
+														<th>Ingress</th>    
+														<th>Record Number/Type</th>   
+														<th>SrcPort</th>
+														<th>DstPort</th>                                                                      
+													</tr>
+											</thead>
+											<tbody id="ingressBody">
+												<tr ng-repeat="x in IngressSessionDetails">
+												<td><input type="checkbox" ng-click="FnIngressChecked(x.pcap)" id="{{x.pcap}}" /></td>
+													<td>{{ x.time }}</td>
+													<td>{{ x.name }}</td>
+													<td>{{ x["Accounting-Record-Type"]}}</td>
+													<td>{{ x.srcport }}</td>
+													<td>{{ x.dstport }}</td>
+													</tr>
+											</tbody>
+										</table>
+										</div>       
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="panel panel-default">
+											<div class="panel-body" style="height:350px;overflow: scroll;">
+												<h5><b>TOTAL EGRESS REPORTS:{{EgressSessionDetails.length}}</b></h5>
+												<table class="table table-bordered table-hover">
+											<thead>
+													<tr style="background-color:#DFF0D8;">   
+													<th><input type="checkbox" id="selectAllEg" ng-click="FnEgressChecked('All')" /></th>                                    
+														<th>Time</th>
+														<th>Egress</th>    
+														<th>Record Number/Type</th>   
+														<th>SrcPort</th>
+														<th>DstPort</th>                                                                      
+													</tr>
+											</thead>
+											<tbody id="egressBody">
+													<tr ng-repeat="y in EgressSessionDetails">
+												<td><input type="checkbox"  ng-click="FnEgressChecked(y.pcap)" id="{{y.pcap}}" /></td>
+													<td>{{ y.time }}</td>
+													<td>{{ y.name }}</td>
+													<td>{{ y["Accounting-Record-Type"]}}</td>
+													<td>{{ y.srcport }}</td>
+													<td>{{ y.dstport }}</td>
+													</tr>
+											</tbody>
+											</table>
+											</div>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+			</div>
+	
+			<div id="myModal" class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel">
+					<div class="modal-dialog modalupdate" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<!--<button type="button"   onclick="window.print()">Print</button>-->
+									<h4 class="modal-title" id="gridSystemModalLabel">DELTA FOR INGRESS/ENGRESS</h4>
+							</div>
+							<div class="modal-body">
+									<div class="container-fluid">
+										<div class="row-popup">
+											<div class="row-fluid controls-row" style="margin-top: -30px;">
+        <div class="panel-heading">
+            <h5 class="panel-title" id="showDiff-title" >Session's Accounting Records Diff:</h5>
+        </div>
+        <div class="panel-container panel-default" id="pane1" >
+        <div class="row">
+        <div class="col-md-6 text-center">
+           <h4>INGRESS</h4>
+        </div>
+        <div class="col-md-6 text-center">
+        <h4>EGRESS</h4>
+        </div>
+        </div>
+          <div class="row" id="printSectionId" style='margin-left: -10px;'><div class="tabbable tabs-left" id="diff1"></div></div>
+        </div>
+        <div class="panel-footer" id="pane1-footer" style='display:none;'></div>
+      </div>
+										</div>
+									</div>
+							</div>
+						</div>
+						<!-- /.modal-content -->
+					</div>
+					<!-- /.modal-dialog -->
+			</div>
+			<!-- /.modal -->
+			</div>
+			<style>
+			.panel-container{
+width:100%;
+min-height:600px;			
+			}
+			.modalupdate{
+width:100%;
+height:700px;			
+			}
+			</style>

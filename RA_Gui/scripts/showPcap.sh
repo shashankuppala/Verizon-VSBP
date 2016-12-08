@@ -1,0 +1,19 @@
+#!/bin/bash
+
+uname=$1
+passwd=$2
+/usr/bin/expect <<EOF
+set timeout 30
+log_user 0
+spawn su - $uname
+expect "*?assword:"
+send -- "$passwd\r"
+send -- "\r"
+expect "*?$uname*"
+send -- "sudo -u root /bin/bash /opt/common/RA/time_filter.sh_working '$3' '$4' '$5' '$6' '$7' '$8' '$9' '$10' '$11' '$12'\r"
+expect "*?assword*"
+send -- "$passwd\r"
+send -- "\r"
+send -- "exit\r"
+expect eof
+EOF

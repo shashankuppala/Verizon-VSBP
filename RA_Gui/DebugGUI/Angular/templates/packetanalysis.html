@@ -1,0 +1,188 @@
+	
+		<style type="text/css">
+					.navbar-nav{
+				padding-left: 100px;
+				padding-top: 22px;
+			}    
+		</style>
+	    
+	<div ng-controller="PacketAnalysisController">    
+	    
+		<time-picker> </time-picker>
+	    
+		<b>Filters:</b>
+		<div class="row">
+	    
+		<div class="col-md-2">
+						<select class="form-control" ng-model="dprotocol">
+									<!--<option value="TCP/IP">TCP/IP</option>-->
+							 <option value="diameter">Diameter</option>
+							 <option value="radius">Radius</option>
+						</select>
+	                 
+		</div>
+	   <div class="col-md-1"> 
+				<input class="form-control" placeholder="cmd-code" name="Enter Ingress port" stype="text" ng-model="cmdCode"/>
+		</div> 					
+		<div class="col-md-1"> 
+				<input class="form-control" placeholder="Enter Ingress port" stype="text" ng-model="ingressport" />
+		</div> 
+		<div class="col-md-1">
+					<input class="form-control" placeholder="Enter Egress port" stype="text" ng-model="egressport" />
+		</div>
+		<div class="col-md-1">
+					<input class="form-control" placeholder="Session-Id" stype="text" ng-model="SessionId"  />
+		</div>  
+		</div>
+		<div class="secondpart">
+		   <h2>Packet Analysis</h2>
+		<div class="col-sm-6" >
+		<div>
+		<!--<button class="btn btn-primary" type="button" ng-click="openInSelect()">Select In-Pcap</button>-->
+		</div>
+		<br>
+		<div class="panel panel-success">
+		<!--table data should be displayed at this palce with the check boxes-->
+		<!-- <div class="panel-heading"></div>-->
+		<div class="panel-body" id="ingressfilecontent" style="height:500px;overflow:scroll;"></div>
+		</div>
+		<div>
+		<button class="btn btn-primary" type="button" ng-click="inSelDownload()" ><span class="glyphicon glyphicon-cloud-download">Download IN-Pcap</span></button>
+		</div>
+		</div>
+		<div class="col-sm-6">
+		<div>
+		<!--<button class="btn btn-primary" type="button" ng-click="openEgSelect()">Select E-Pcap</button>-->
+		</div>
+		<br>
+		<div class="panel panel-success">
+		<!--table data should be displayed at this palce with the check boxes-->
+		<!--<div class="panel-heading"></div>-->
+		<div class="panel-body" id="egressfilecontent" style="height:500px;overflow:scroll;" placeholder=""></div>
+		</div>
+		<div>
+		<button class="btn btn-primary" type="button" ng-click="egSelDownload()"><span class="glyphicon glyphicon-cloud-download">Download EN-Pcap</span></button>
+		</div>
+		</div>
+		</div>
+		<!--INGRESS select WINDOW-->
+		<div id="myModal1" class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel">
+							<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header"  >
+										    <h3>Ingress Pcap files:</h3>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-top: 8px;
+		padding-left: 8px;"><span aria-hidden="true">&times;</span></button>
+													<div style="height:350px;overflow: scroll;">
+													<table class="table table-bordered table-hover"  >
+												     <thead>
+													    <tr style="background-color:#DFF0D8;">   
+															 <th>Ingress-Pcap-to-text</th>                                                                      
+														 </tr>
+												     </thead>
+												     <tbody id="ingressBody">
+														  <tr ng-repeat="y in inFiles">
+															 <td><a href="" ng-click="FnDownloadIngressFile(y)">{{y}}</a></td>
+														  </tr>
+												     </tbody>
+												  </table>
+												</div>   
+										</div>
+	                            
+	    
+									</div>
+									<!-- /.modal-content -->
+							</div>
+							<!-- /.modal-dialog -->
+					</div>
+					<!-- For the ingress download button-->
+					<div id="myModal3" class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel">
+							<div class="modal-dialog" role="document">							
+									<div class="modal-content">
+										<div class="modal-header"  >
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close" ><span aria-hidden="true">&times;</span></button>
+										<h3>Ingress Pcap files:</h3>
+													
+													<div style="height:350px;overflow: scroll;">
+													<table class="table table-bordered table-hover"  >
+												     <thead>
+													    <tr style="background-color:#DFF0D8;">   
+															 <th>Click to download Ingress-Pcap</th>                                                                      
+														 </tr>
+												   </thead>
+												   <tbody id="ingressBody">
+														<tr ng-repeat="y in inDownloadFiles">
+															<td><a href="/Ingress/{{y}}" download="{{y}}">{{y}}</a></td>
+														</tr>
+												  </tbody>
+												</table>
+												</div>   
+										</div>
+									</div>
+									<!-- /.modal-content -->
+							</div>
+							<!-- /.modal-dialog -->
+					</div>
+					<!--EGRESS select WINDOW-->
+		<div id="myModal2" class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel">
+							<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header"  >
+										<h3>Egress Pcap files:</h3>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-top: 8px;
+		padding-left: 8px;"><span aria-hidden="true">&times;</span></button>
+													<div style="height:350px;overflow: scroll;">
+													<table class="table table-bordered table-hover"  >
+												<thead>
+														<tr style="background-color:#DFF0D8;">   
+															<th>Egress-pcap-to-text</th>                                                                      
+														</tr>
+												</thead>
+												<tbody id="egressBody">
+														<tr ng-repeat="x in eFiles">
+															<td><a href="" ng-click="FnDownloadEgressFile(x)">{{x}}</a></td>
+														</tr>
+												</tbody>
+												</table>
+												</div>   
+										</div>
+	                            
+									<div class="modal-footer"> </div>
+									</div>
+									<!-- /.modal-content -->
+	                        
+							</div>
+							<!-- /.modal-dialog -->
+					</div>
+					<!-- For the Egress download button-->
+	            
+					<div id="myModal4" class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel">
+							<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header"  >
+										<h3>Egress Pcap files:</h3>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-top: 8px;
+		padding-left: 8px;"><span aria-hidden="true">&times;</span></button>
+													<div style="height:350px;overflow: scroll;">
+													<table class="table table-bordered table-hover"  >
+												<thead>
+														<tr style="background-color:#DFF0D8;">   
+															<th>Click to download Egress-Pcap</th>                                                                      
+														</tr>
+												</thead>
+												<tbody id="ingressBody">
+														<tr ng-repeat="x in enDownloadFiles">
+															<td><a href="/Egress/{{x}}" download="{{x}}">{{x}}</a></td>
+														</tr>
+												</tbody>
+												</table>
+												</div>   
+										</div>
+	                            
+	    
+									</div>
+									<!-- /.modal-content -->
+							</div>
+							<!-- /.modal-dialog -->
+					</div>
+		</div>
